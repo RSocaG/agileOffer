@@ -1,0 +1,567 @@
+{
+	"info": {
+		"_postman_id": "83c1969f-5b8d-4882-826e-ef8569bf5d0c",
+		"name": "agile-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "location",
+			"item": [
+				{
+					"name": "http://localhost:8800/location",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"USA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/location",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"location"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/location",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/location",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"location"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/location/5f61a848cf4f2c2860a29da7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/location/5f61a848cf4f2c2860a29da7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"location",
+								"5f61a848cf4f2c2860a29da7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/location/5f61a848cf4f2c2860a29da7",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Brazil\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/location/5f61a848cf4f2c2860a29da7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"location",
+								"5f61a848cf4f2c2860a29da7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/location/5f61a848cf4f2c2860a29da7",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/location/5f61a848cf4f2c2860a29da7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"location",
+								"5f61a848cf4f2c2860a29da7"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "offer",
+			"item": [
+				{
+					"name": "http://localhost:8800/offer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"name\": \"string\",\r\n  \"location\": \"5f61aa79c7c22e0fa001e0ce\",\r\n  \"employmentType\": \"Full Time\",\r\n  \"company\": \"5f61aa93c7c22e0fa001e0cf\",\r\n  \"tags\": [\r\n \"5f61ab17c7c22e0fa001e0d3\"\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/offer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"offer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/offer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/offer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"offer"
+							],
+							"query": [
+								{
+									"key": "tags",
+									"value": "5f61ab28c7c22e0fa001e0d4",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/offer/5f6455c48ec21c2944bc8c8c",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/offer/5f6455c48ec21c2944bc8c8c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"offer",
+								"5f6455c48ec21c2944bc8c8c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/offer/5f6455c48ec21c2944bc8c8c",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Backend\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/offer/5f6455c48ec21c2944bc8c8c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"offer",
+								"5f6455c48ec21c2944bc8c8c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/offer/5f6455c48ec21c2944bc8c8c",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/offer/5f6455c48ec21c2944bc8c8c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"offer",
+								"5f6455c48ec21c2944bc8c8c"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "tag",
+			"item": [
+				{
+					"name": "http://localhost:8800/question",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "license",
+								"value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMDIwMDkwNCIsIm5hbWUiOiJEdXJhem5vIn0.j0uK9NcaHLl212xznKVE7FwAd3LYA_Ves5l4KhW0SdXpOumsRpj3W9NkGFm3EIVpMyXLpBX7TRN9gBemNHjOVg",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"CSS\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/tag",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"tag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/tag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/tag",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"tag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/tag/5f619c62552b961948bdba06",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/tag/5f619c62552b961948bdba06",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"tag",
+								"5f619c62552b961948bdba06"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/tag/5f619c62552b961948bdba06",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Javascript\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/tag/5f619c62552b961948bdba06",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"tag",
+								"5f619c62552b961948bdba06"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/tag/5f619c62552b961948bdba06",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/tag/5f619c62552b961948bdba06",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"tag",
+								"5f619c62552b961948bdba06"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "company",
+			"item": [
+				{
+					"name": "http://localhost:8800/company",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Apple\",\n\t\"relatedImage\": \"https://google.com/image.jpg\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/company",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"company"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/company",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/company",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"company"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/company/5f61a782cf4f2c2860a29da6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/company/5f61a782cf4f2c2860a29da6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"company",
+								"5f61a782cf4f2c2860a29da6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/company/5f61a782cf4f2c2860a29da6",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Apple Inc.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/company/5f61a782cf4f2c2860a29da6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"company",
+								"5f61a782cf4f2c2860a29da6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/company/5f61a782cf4f2c2860a29da6",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/company/5f61a782cf4f2c2860a29da6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"company",
+								"5f61a782cf4f2c2860a29da6"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

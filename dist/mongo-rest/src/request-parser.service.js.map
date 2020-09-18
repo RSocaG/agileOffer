@@ -1,0 +1,1 @@
+{"version":3,"file":"request-parser.service.js","sourceRoot":"","sources":["../../../src/mongo-rest/src/request-parser.service.ts"],"names":[],"mappings":";;AAGA,MAAa,oBAAoB;IAC/B,MAAM,CAAC,UAAU,CAAC,KAAqB;QACrC,OAAO;YACL,KAAK,EAAE,MAAM,CAAC,KAAK,CAAC,KAAK,IAAI,EAAE,CAAC;YAChC,IAAI,EAAE,MAAM,CAAC,KAAK,CAAC,IAAI,IAAI,CAAC,CAAC;SAC9B,CAAC;IACJ,CAAC;CACF;AAPD,oDAOC"}
