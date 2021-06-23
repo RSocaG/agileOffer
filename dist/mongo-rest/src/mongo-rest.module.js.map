@@ -1,1 +1,0 @@
-{"version":3,"file":"mongo-rest.module.js","sourceRoot":"","sources":["../../../src/mongo-rest/src/mongo-rest.module.ts"],"names":[],"mappings":";;;;;;;;AAAA,2CAAwC;AAMxC,IAAa,eAAe,GAA5B,MAAa,eAAe;CAAG,CAAA;AAAlB,eAAe;IAJ3B,eAAM,CAAC;QACN,SAAS,EAAE,EAAE;QACb,OAAO,EAAE,EAAE;KACZ,CAAC;GACW,eAAe,CAAG;AAAlB,0CAAe"}
